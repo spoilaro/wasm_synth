@@ -11,9 +11,9 @@ fn main() {
     oscillator.generate_table();
 
     let sample_table = oscillator.generate_samples(frequency, 3.0);
-    // oscillator.show_table(sample_table);
+    oscillator.show_table(sample_table);
 
-    oscillator.chart_samples(sample_table).unwrap();
+    // oscillator.chart_samples(sample_table).unwrap();
 
 
 }
